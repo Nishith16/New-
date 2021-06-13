@@ -1,0 +1,122 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+main{
+	min-height: 100vh;
+	background-image: linear-gradient(to right top, #101b94, #004bb8, #0072d0, #0098e0, #12bceb);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Cutive Mono', monospace;
+}
+.glass{
+	background: white;
+	min-height: 80vh;
+	width: 80%;
+	background: linear-gradient(to right bottom, rgba(20,72,152,.6), rgba(18,208,236,.4));
+	border-radius: 2rem;
+	z-index: 2;
+	backdrop-filter: blur(1rem);
+	display: flex;
+}
+.circle1, .circle2{
+	background: white;
+	background: linear-gradient(to right bottom, rgba(20,72,152,.6), rgba(18,208,236,.4));
+	height: 12rem;
+	width: 12rem;
+	border-radius: 50%;
+}
+.circle1{
+	position: absolute;
+	top: 2%;
+	left: 5%;
+}
+.circle2{
+	position: absolute;
+	bottom: 2%;
+	right: 5%;
+}
+.dashboard{
+	color: white;
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	text-align: center;
+	background: linear-gradient(to right bottom, rgba(20,72,152,.6), rgba(18,208,236,.4));
+	border-radius: 2rem;
+}
+.chatboard{
+	flex: 4;
+}
+.link{
+	display: flex;
+	margin: 2rem 0rem;
+	padding: 1rem 5rem;
+	align-items: center;
+}
+
+.link > h2{
+	padding: ;
+}
+.login{
+	background: linear-gradient(to right bottom, rgba(20,72,152,.6), rgba(18,208,236,.4));
+	border-radius: 2rem;
+	padding: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.titlebar{
+	margin-bottom: 3rem;
+}
+.titlebar input{
+	background: linear-gradient(to left top, rgba(255,255,255,.6), rgba(255,255,255,.2));
+	border: none;
+	margin-top: 2rem;
+	width: 50%;
+	padding: .5rem;
+	border-radius: 2rem;
+}
+
+.chatboard{
+	margin: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	overflow: hidden;
+}
+
+.card{
+	display: flex;
+	background: linear-gradient(to left top, rgba(255,255,255,.6), rgba(255,255,255,.2));
+	border-radius: 1rem;
+	margin: 2rem 0rem;
+	padding: 2rem;
+	box-shadow: 6px 6px 20px rgba(122,122,122,.2);
+	align-items: center;
+	overflow: hidden;
+}
+
+.info{
+	margin-left: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.info h2{
+	color: white;
+	font-size: 2rem;
+}
+.info p{
+	color: white;
+	font-size: 1.5rem;
+}
+.xyz{
+	color: black;
+	font-size:35px ;
+}
